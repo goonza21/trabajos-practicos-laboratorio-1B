@@ -1,6 +1,24 @@
 int primernumero;
-int segundonumero;}
+int segundonumero;
 int suma;
 int resta;
-int division;
+float division;
 int multiplicacion;
+
+printf("ingrese el primer numero : ");
+scanf("%d",&primernumero);
+
+printf("ingrese el segundo numero : ");
+scanf("%d",&segundonumero);
+
+suma= primernumero+segundonumero;
+resta= primernumero-segundonumero;
+division= primernumero/segundonumero;
+multiplicacion= primernumero*segundonumero;
+
+
+
+printf("\nla suma de los numeros es: %d ",suma);
+printf("\nla resta de los numeros es: %d ",resta);
+printf("\nla division de los numeros es: %f ",division);
+printf("\nla multiplicacion de los numeros es: %d ",multiplicacion);
